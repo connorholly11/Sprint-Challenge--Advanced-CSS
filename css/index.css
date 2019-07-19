@@ -317,3 +317,18 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.container {
+  max-width: 800px;
+  justify-content: center;
+}
+.container .formdesign {
+  display: flex;
+  flex-direction: column;
+}
+.container .formdesign h1 {
+  font-size: 2.7rem;
+  justify-content: center;
+}
+.container .formdesign h2 {
+  font-size: 1.5rem;
+}
