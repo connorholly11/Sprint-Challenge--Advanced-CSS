@@ -1,1 +1,31 @@
 // Mixins Here
+
+.test{
+    border:1px solid red;
+}
+
+.flexbox{
+    display:flex;
+    justify-content:center;
+}
+
+.button(@background:@btn-bg-color, @color:white){
+    padding:10px;
+    background:@background;
+    color:@color;
+    width:25%;
+    .flexbox();
+    border-radius:10px;
+    font-size:1.5rem;
+}
+
+.hover(@background:white, @color:@btn-bg-color){
+    background:@background;
+    color:@color;
+}
+
+.mobilestack{
+    display:flex;
+    flex-direction:column;
+}
+
