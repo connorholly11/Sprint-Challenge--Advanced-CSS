@@ -1,3 +1,10 @@
+1. adaptive websites use distinct measures for each screen size. A responsive web sign adapts to the screen size no matter what the screen size is. 
+2. mobile first means you build from the smallest to the biggest. Your original designs are for the mobile and then you adjust for bigger screen sizes. The desktop is the opposite. It’s the biggest and then you design for smaller screen sizes
+3. 62.5% is responsive and is basically the same as saying take 62.5% of the default font-size, which is 10px. This makes it easier for us to calculate what we actually want for our design. If we say 2rem then its as simple as doing 10x2 =2 or 
+4. It’s an outside program that allows you to code differently (making it easier on us), but then conforming that data to the input requirements of other programs. We are allowed to code in .less making it easier on us, but then it will compile for us in .css still. This is an example of what a preprocessor can do.
+5. Nesting is for sure my favorite part of it. It allows me to see my code more clearly and code the same way I code my html. What has been the most difficult is media queries. Although it has helped me produce better content for different screen sizes, it still takes getting used to.
+
+
 # Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.
